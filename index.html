@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="head1">Generate a</h1>
+      <h1 class="head2">random password</h1>
+      <p>never use an insecure password again</p>
+
+      <div class="text">Enter the number of character:</div>
+      <br />
+      <input type="number" class="number" id="number" max="99" min="8"/>
+      <br />
+      <button id="generatePassword">generate password</button>
+
+      <div class="line"></div>
+
+      <div class="passwords">
+        <div id="password1" class="password" onclick="copy1()"></div>
+        <div id="password2" class="password" onclick="copy2()"></div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
